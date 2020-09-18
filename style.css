@@ -1,0 +1,289 @@
+.navbar{
+    background-color: rgb(10, 43, 105) !important;
+    height: 50px !important;
+}
+.nav-item{
+    color: white !important;
+}
+.second{
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+.second .nav-link {
+    color:  black !important;
+    font-size: 1.2rem !important;
+    font-family: serif;
+    font-weight: bold;
+   text-decoration: none;
+
+}
+.second .nav-item .dropdown-toggle{
+    color:  black !important;
+    font-size: 1.2rem !important;
+    font-family: serif;
+}
+
+.second .nav li:hover .dropdown-menu{
+    display: block !important;
+    background-color: rgb(10, 43, 105);
+    padding: 12%;
+    margin-top: 4%;
+    
+}
+.second .nav li:hover .dropdown-menu a{
+    background-color: transparent;
+   color: rgb(212, 211, 211) !important;
+}
+
+.first .navbar-nav .nav-item{
+    font-size: 0.75rem !important;
+}
+.first .navbar-nav :nth-child(odd){
+color: rgba(124, 129, 156, 0.822);
+}
+ul.carousel-indicators li,
+ul.carousel-indicators li.active {
+   width: 0.65rem;
+   height: 0.65rem;
+   margin: 0;
+   border-radius: 50%;
+   border: 3px solid white;
+   background: white;
+   float: right !important;
+}
+.carousel-inner img {
+    width: 100%;
+  }
+  ul.carousel-indicators li {
+    background: transparent;
+    margin-left: .75rem;
+    margin-right: .75rem;
+ }
+ .carousel-indicators {
+    text-align: left;
+    float: left;
+    left: 2% !important;
+    right: inherit;
+}
+.carousel-inner .carousel-caption h1{
+    width: 60%;
+    color: white;
+    /* margin-left: -10%; */
+    text-align: left;
+    margin-top: -25%;
+    font-size: 3rem;
+    font-family: serif;
+    font-weight: bolder;
+}
+.smiu{
+   padding: 2% 15% 1% 10%;
+}
+.smiu h2{
+    color: rgb(2, 37, 2);
+}
+.smiu p{
+    font-size: 1.15rem;
+}
+.smiu button{
+    margin-top: 2%;
+    background-color:rgb(10, 43, 105);
+    color: white;
+    border: 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.smiu button:hover{
+    background-color: brown;
+}
+.smiu button .iconify{
+    font-size: 1.5rem;
+    padding: 3%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+.smiu .line{
+    width: 55px; 
+    height: 50px; 
+    color: rgb(10, 43, 105);
+}
+.department .jumbotron{
+    background-color: rgb(10, 43, 105);
+}
+.card{
+display: inline-flex !important;
+background-color: white !important;
+border-radius: 0%;
+margin: 1% 1% 1% 1% ;
+}
+.department h6 a{
+    color: brown !important;
+    text-decoration: none;
+    font-family: serif;
+    font-weight: bolder;
+}
+.card-body{
+    text-align: center;
+}
+.department h1{
+color: white;
+text-align: center;
+font-family: serif;
+font-weight: bolder;
+}
+
+.youtube{
+      /* position: absolute; */
+      /* top: 0;
+      bottom: 0;
+      left: 0; */
+      width: 100%;
+      height: 100% !important;
+      /* border: 0; */
+    
+  }
+  .video .h1{
+      text-align: center;
+      font-family: serif;
+      font-weight: bolder;
+      font-size: 3rem;
+      
+  }
+  .video .h1 .iconify{
+    color: rgb(10, 43, 105);
+  }
+  .news .card{
+    height: 390px;
+    width: 400px;
+  }
+ .news .card img{
+     height: 315px;
+     width: 100%;
+ }
+ .news .card-body{
+     display: inline-flex;
+ }
+ .news .card-body ul li{
+      list-style: none;
+      margin-left: -100%;
+ }
+ /* .news .card-body .date{
+    background-color: red;
+    color: black;
+ } */
+ .news .card-body ul{
+     margin-left: -5.5%;
+     margin-top: -5.5%;
+     background-color: rgb(10, 43, 105);
+     color: white;
+   height: 73px;
+ }
+ 
+ .news .card-body .card-text .council a  {
+    margin-top: -50%;
+    
+ }
+ .news .card-body .council #smiu{
+    margin-top: 2%;
+    margin-left: -70%; 
+    color: grey;
+
+ }
+ 
+ .news .card-body .council #smiu .iconify{
+     color: brown;
+     font-size: 1.2rem;
+     margin-right: 2%;
+ }
+ .news .card-body .council #smiu .iconify :hover{
+     color: rgb(10, 43, 105) !important;
+ }
+ .news .card-body .council{
+    width: 100%;
+    height: 73px;
+    margin-top: -5.5%;
+ }
+ .news a{
+     text-decoration: none;
+     color: brown;
+ }
+ .news a:hover{
+    color: rgb(10, 43, 105);
+ }
+ .news .container{
+     display: inline;
+ }
+ .news .one {
+     margin-left: 20%;
+ }
+ .news h1{
+     text-align: center;
+ }
+ .news{
+     margin-top: 1%;
+ }
+ .news button{
+     margin-left: 40%;
+ }
+ .news button :hover{
+     background-color: brown;
+ }
+ .news .two{
+background-color: white !important;
+ }
+ .vc{
+     background-color: rgb(10, 43, 105);
+     height: 500px;
+     color: white;
+ }
+ 
+ .vc img{
+     margin-top: 20%;
+     width: 300px;
+     height: 300px;
+     margin-left: 20%;
+ }
+.vc .col-7{
+    margin-top: 10%;
+    font-size: 1rem;
+    margin-left: -5%;
+}
+.vc a{
+    margin-top: 2%;
+    float: left;
+    text-decoration: none;
+color: white;
+}
+.Studying h1{
+text-align: center;
+}
+.Studying .card-title a{
+    text-decoration: none;
+    color: rgb(10, 43, 105);
+}
+.Studying .card-title a:hover{
+    color: brown;
+}
+.footer ul li , ol li{
+    list-style: none;
+    padding: 1%;
+}
+.footer ul{
+    margin-top: 5%;
+}
+.footer ol li{
+    display: inline;
+    font-size: 2rem;
+}
+.footer ol{
+    margin-top: 5%;
+}
+.address , .contact{
+    margin-left: -5%;
+}
+.footer .h6{
+    margin-top: 5%;
+}
+.footer .input-group {
+    margin-top: 2%;
+}
